@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- http-equiv provides an HTTP header for the information/value of the content attribute -->
+    <!-- X-UA-Compatible is a document mode meta tag that allows web authors to choose what version of Internet Explorer the page should be rendered as. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This gives the browser instructions on how to control the page's dimensions and scaling -->
+    <!-- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). -->
+    <!-- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+
+    <!-- Meta tag desc: -->
+    <!-- The content attr in meta tag is link to the name attr or http-equiv (Never thought of that), it is like setting browser's variable for your web -->
+    <!-- So the function of the meta tag are defer from each browser, but the below list of name attr should have the same function for all browser -->
+    <!-- Meta tag name attr acceptable values: 
+        application-name - this website's name
+        author - author's name
+        description - description of this web site
+        generator 
+        keywords
+    -->
+
+    <meta name="author" content="Rechie" />
+    <meta name="application-name" content="Rechie's Portfolio" />
+    <meta name="description" content="A portfolio created by rechie without using some fancy tools like React. Pure CSS, HTML, and Javascript is used. This project is created because the author have imposter syndrome and think he is suck at web dev so he is proving to himself that he is actually quite good (maybe)."
+    />
+    <meta name="keywords" content="Rechie, Portfolio, Rechie's Portfolio, Depression" />
+
+    <!-- There are actually Meta tag generator out there, this one looks legit: https://lewdev.github.io/apps/meta-tag-gen/ -->
+    <title>Rechie&#39;s Portfolio</title>
+    <!-- '&#39;' is a html entity. Please refer to this list: https://www.freeformatter.com/html-entities.html -->
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <!-- Oh no, I am depress once again -->
+    <header class="panel">
+        <h2>
+            <center>Rechie&#39;s Portfolio</center>
+        </h2>
+    </header>
+    <main class="panel">
+        <section class="content">
+            <img src="./asset/pfp.png" alt="profile picture" class="round spacy" />
+            <h3 class="spacy">Hi, someone!</h3>
+            <p>
+                <center class="spacy">
+                    <strong>I</strong> am Rechie K<strong>h</strong>o. I am a highschooler <strong>a</strong>nd I am very pessimis
+                    <strong>t</strong>ic. I us<strong>e</strong> coding or program
+                    <strong>m</strong>ing as a wa<strong>y</strong> to e
+                    <strong>s</strong>cape n<strong>e</strong>gativity. I am in
+                    <strong>l</strong>ove with coding <strong>f</strong>rom the day I open an IDE .
+                </center>
+            </p>
+            <div class="btns">
+                <button data-from="0" data-to="1" class="to-right">Next &gt;</button>
+            </div>
+        </section>
+        <section class="content none hide">
+            <h3>
+                <center class="spacy">I am <strike>not</strike> smart!</center>
+            </h3>
+            <p>
+                <center class="spacy">
+                    I have tried a lot of programming languages such as Python, C#, Javascript, PHP and MySQL. I am blissful as I learn the languages. From these languages (and my failure on lots of project), I learnt to write a more maintainable code.
+                </center>
+            </p>
+            <div class="btns">
+                <button data-from="1" data-to="0">&lt; Prev</button>
+                <button data-from="1" data-to="2">Next &gt;</button>
+            </div>
+        </section>
+        <section class="content none hide">
+            <h3 class="spacy">The end!</h3>
+            <p>
+                <center class="spacy">
+                    Well, this is the end of my portfolio, Yay! I know it is not as impressive as others but I might add something more interesting in the future (right after I fix my self-esteem problem). There is really nothing more now. Have a nice day.
+                </center>
+            </p>
+            <div class="btns">
+                <button data-from="2" data-to="1">&lt; Prev</button>
+                <button data-from="2" data-to="3"><strike>Next &gt;</strike></button>
+            </div>
+        </section>
+        <section class="content none hide">
+            <p>
+                <center>Weird stuff comming soon...</center>
+            </p>
+            <div class="btns">
+                <button data-from="3" data-to="2">&lt; Prev</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="" class="link-btn">
+            <center>contact me</center>
+        </a>
+        <a href="" class="link-btn">
+            <center>github page</center>
+        </a>
+    </footer>
+    <span class="sig"><center>Create by Rechie Kho</center></span>
+</body>
+
+</html>

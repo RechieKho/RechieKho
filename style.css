@@ -1,0 +1,181 @@
+/* em - my parent element's font-size */
+
+
+/* rem - root element's font-size */
+
+
+/* color theme: https://coolors.co/fdc921-fdd85d-fffdf7-99d6ea-6798c0-546787-41364d-262626 */
+
+
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+:root {
+    /* select document's root element */
+    /* variables */
+    --yellow: #fdc921;
+    --white: #fffdf7;
+    --black: #262626;
+    --purple: #41364d;
+    --azure: #99d6ea;
+    --blue: #6798c0;
+    --trans-grey: rgba(0, 0, 0, 0.25);
+    --root-radius: 1rem;
+    --root-shadow-x: 0;
+    --root-shadow-y: 0.5rem;
+    --root-blur: 1rem;
+    --root-padding: 1rem;
+    --root-margin: 1.3rem;
+    --root-img-size: 13rem;
+}
+
+html {
+    /* make body fills */
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--root-padding);
+    background-color: var(--yellow);
+    font-family: "Quicksand", "sans-serif";
+    font-weight: 400;
+}
+
+body.dark {
+    background-color: var(--purple);
+}
+
+header {
+    width: 100%;
+    max-width: 500px;
+}
+
+main {
+    flex: 1 0 500px;
+}
+
+footer {
+    width: 100%;
+    max-width: 700px;
+    margin: var(--root-margin) 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.1rem;
+}
+
+p,
+p+center {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+img {
+    width: var(--root-img-size);
+    height: var(--root-img-size);
+}
+
+img.round {
+    border-radius: 50%;
+}
+
+.panel {
+    box-sizing: border-box;
+    padding: var(--root-padding) calc(var(--root-padding) + 1rem);
+    background-color: var(--white);
+    border-radius: var(--root-radius);
+    box-shadow: var(--root-shadow-x) var(--root-shadow-y) var(--root-blur) var(--trans-grey);
+    /* x y blur color */
+    margin-top: var(--root-margin);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-btn {
+    padding: var(--root-padding);
+    border-radius: calc(var(--root-radius) * 2);
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: none;
+    box-shadow: var(--root-shadow-x) var(--root-shadow-y) var(--root-blur) var(--trans-grey);
+    /* x y blur color */
+}
+
+.sig {
+    color: var(--black);
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+.content {
+    /* for switching animation */
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 200ms ease-in-out;
+    transition-property: opacity, transform;
+    flex: 1;
+    max-width: 50ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--root-padding);
+    line-height: 20px;
+}
+
+.spacy {
+    margin-bottom: calc(var(--root-margin) + 0.5rem);
+}
+
+.none {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+    transform: translate(0, 1rem);
+}
+
+.content .btns {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content button {
+    display: block;
+    color: var(--blue);
+    font-family: "Quicksand", "sans-serif";
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.content button.to-right {
+    margin-left: auto;
+}
