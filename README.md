@@ -7,6 +7,8 @@ for my school project. Because of it, I leart HTML, CSS, javascript, React, PHP 
 
 In a nutshell, I spent a lot of time on coding (literally everyday, just lazy to `git push`).
 
+my website: https://rechiekho.github.io/RechieKho/index.html
+
 ### Technology That I Have Immerse Myself In ⚙
 
 You have run: `SELECT name FROM technology ORDER BY experience DESC`
@@ -32,9 +34,10 @@ I know this is very little and I haven't do the documentation for some project �
 
 ### Reach me 📱
 
-my email: the.real.richie.kho@gmail.com
-my website: https://rechiekho.github.io/RechieKho/index.html
-twitter: **soon**
+You can reach me through:
+
+- my email: the.real.richie.kho@gmail.com
+- twitter: **soon**
 
 ### Having issue? 🤔💭
 
