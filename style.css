@@ -44,8 +44,13 @@ body {
     align-items: center;
     padding: var(--root-padding);
     background-color: var(--yellow);
+    transition: background-color 400ms ease-in-out;
     font-family: "Quicksand", "sans-serif";
     font-weight: 400;
+    /* background image */
+    background-image: url("./asset/Hero.png");
+    background-position: center;
+    background-blend-mode: soft-light;
 }
 
 body.dark {
@@ -59,6 +64,8 @@ header {
 
 main {
     flex: 1 0 500px;
+    width: 100%;
+    max-width: 600px;
 }
 
 footer {
@@ -71,7 +78,7 @@ footer {
     justify-content: space-around;
 }
 
-strong {
+b {
     font-weight: bold;
 }
 
@@ -137,6 +144,7 @@ img.round {
     transition: all 200ms ease-in-out;
     transition-property: opacity, transform;
     flex: 1;
+    width: 100%;
     max-width: 50ch;
     display: flex;
     flex-direction: column;
