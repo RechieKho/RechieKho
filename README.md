@@ -1,13 +1,13 @@
-### Hi there 👋 I am Rechie!
+### Hi there 👋 I am Rechie! 😊
 
 I am a random 👦 who live on a planet called '🌏'. I am very ordinary and I just coding as a way to escape from reality.
-In the past, I spent most of the time on C# for Unity and I admit it is a bad idea because making a game is very tiring.
-I ended up giving up because I hate my artwork (not coding's fault). At the same time, I also did some research on web development
+
+In the past, I spent most of the time on C# for Unity. At the same time, I also did some research on web development
 for my school project. Because of it, I leart HTML, CSS, javascript, React, PHP and some MySQL.
 
-In a nutshell, I spent a lot of time on coding (probably because I don't have money to buy games 😢).
+In a nutshell, I spent a lot of time on coding (literally everyday, just lazy to `git push`).
 
-### Technology That I Have Immerse Myself In
+### Technology That I Have Immerse Myself In ⚙
 
 You have run: `SELECT name FROM technology ORDER BY experience DESC`
 Output:
@@ -21,20 +21,25 @@ Output:
 | python |
 | MySQL|
 
-To be honest, I don't consider myself a very smart guy and this list will be outdate soon.
-
-### Past project
+### Past project 💻
 
 I know this is very little and I haven't do the documentation for some project 😔
 
 - [Beat&Pitch (an app contains a metronome, a tone generator and a pitch detector, created using React Native)](https://github.com/RechieKho/BeatAndPitch)
 - [Colosology (The unity project that I had abandoned)](https://github.com/RechieKho/colosology)
 - [react-native-vexflow (write music note in react native app)](https://github.com/RechieKho/react-native-vexflow)
-- [Rechie's Portfolio]()
+- [Rechie's Portfolio](https://github.com/RechieKho/RechieKho)
 
-## Rechie's Portfolio
+### Reach me 📱
 
-This repository is also for my not-so-good just-for-learning portfolio. I made it because I doubt myself on my CSS and vanila javascript skill.
+my email: the.real.richie.kho@gmail.com
+twitter: **soon**
+
+### Having issue? 🤔💭
+
+[Create an issue now](https://github.com/RechieKho/RechieKho/issues/new)
+
+### ⚡ Fun fact: Do you know depression damage your brain?
 
 <!--
 **RechieKho/RechieKho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
