@@ -129,6 +129,19 @@ img.round {
     text-decoration: none;
     box-shadow: var(--root-shadow-x) var(--root-shadow-y) var(--root-blur) var(--trans-grey);
     /* x y blur color */
+    transition: padding 250ms ease-in-out;
+}
+
+.link-btn span {
+    display: none;
+}
+
+.link-btn:focus span {
+    display: unset;
+}
+
+.link-btn:hover {
+    padding: var(--root-padding) calc(var(--root-padding) + 1rem);
 }
 
 .sig {

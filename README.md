@@ -33,6 +33,7 @@ I know this is very little and I haven't do the documentation for some project �
 ### Reach me 📱
 
 my email: the.real.richie.kho@gmail.com
+my website: https://rechiekho.github.io/RechieKho/index.html
 twitter: **soon**
 
 ### Having issue? 🤔💭
