@@ -37,7 +37,7 @@ I know this is very little and I haven't do the documentation for some project �
 You can reach me through:
 
 - my email: the.real.richie.kho@gmail.com
-- twitter: **soon**
+- twitter: https://twitter.com/Rechie_Kho
 
 ### Having issue? 🤔💭
 
