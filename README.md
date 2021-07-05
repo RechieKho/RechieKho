@@ -27,10 +27,10 @@ Output:
 
 I know this is very little and I haven't do the documentation for some project 😔
 
-- [Beat&Pitch (an app contains a metronome, a tone generator and a pitch detector, created using React Native)](https://github.com/RechieKho/BeatAndPitch)
-- [Colosology (The unity project that I had abandoned)](https://github.com/RechieKho/colosology)
 - [react-native-vexflow (write music note in react native app)](https://github.com/RechieKho/react-native-vexflow)
 - [Rechie's Portfolio](https://github.com/RechieKho/RechieKho)
+- [simple_rest_api (a simple express app)](https://github.com/RechieKho/simple_rest_api)
+- [simple_mongo_server (an express app that uses MongoDB as database)](https://github.com/RechieKho/simple_mongo_server)
 
 ### Reach me 📱
 
