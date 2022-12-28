@@ -1,25 +1,25 @@
-### What is Rechie?
+Hi, I am Rechie. These years have been tough, but I made it.
 
-Rechie is an individual. Rechie is not a monstor. Rechie is temporary but might be permanent.
+I do code in all kinds of languages, although most of my income comes from my art instead of programming, weird.
 
-More info: https://rechiekho.github.io/RechieKho/index.html
-
-### Technology That Rechie tried ⚙
+### Technology That I tried ⚙
 
 | Technology |
 | ---------- |
+| C / C++    |
+| assembly   |
+| gdscript   |
+| python     |
 | javascript |
 | HTML       |
 | C#         |
 | CSS        |
 | PHP        |
-| python     |
 | MySQL      |
 
 ### Past project 💻
 
-Rechie uses some of its time crystals and these are some of the by-products.
-
+- [Piko-piko OS (x86 16-bits operating system)](https://github.com/RechieKho/piko-piko)
 - [react-native-vexflow (write music note in react native app)](https://github.com/RechieKho/react-native-vexflow)
 - [Rechie's Portfolio](https://github.com/RechieKho/RechieKho)
 - [simple_rest_api (a simple express app)](https://github.com/RechieKho/simple_rest_api)
@@ -27,16 +27,8 @@ Rechie uses some of its time crystals and these are some of the by-products.
 
 ### Contact Rechie 📱
 
-Here are some text that gives hints on contacting Rechie. Good luck.
-
 - The email: the.real.richie.kho@gmail.com
 - twitter: https://twitter.com/Rechie_Kho
-
-### Having issue? 🤔💭
-
-[Create an issue now](https://github.com/RechieKho/RechieKho/issues/new)
-
-### ⚡ Fun Facts: Rechie is conscious.
 
 <!--
 **RechieKho/RechieKho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
