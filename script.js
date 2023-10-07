@@ -34,11 +34,6 @@
         return list;
     };
 
-    const changeBgColor = (dark) => {
-        const bodyClassList = document.body.classList;
-        dark ? bodyClassList.add("dark") : bodyClassList.remove("dark");
-    };
-
     const contents = Array.from(document.getElementsByClassName("content"));
     const buttons = extractElementsFromArray(contents, "button");
 
@@ -47,9 +42,6 @@
             hide(contents[button.dataset.from], () =>
                 unhide(contents[button.dataset.to])
             );
-
-            // if content is danger, change background to dark mode
-            changeBgColor(contents[button.dataset.to].classList.contains("danger"));
         })
     );
 })();
